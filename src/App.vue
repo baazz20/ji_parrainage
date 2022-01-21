@@ -2,26 +2,33 @@
   <swiper
     :effect="'cube'"
     :grabCursor="true"
+    :spaceBetween="30"
+    :centeredSlides="true"
+    :autoplay="{
+      delay: 2500,
+      disableOnInteraction: false,
+    }"
     :cubeEffect="{
       shadow: true,
       slideShadows: true,
-      shadowOffset: 20,
-      shadowScale: 0.94,
+      shadowOffset: 30,
+      shadowScale: 1.94,
     }"
     :pagination="true"
-    class="mySwiper">
+    class="mySwiper"
+  >
     <swiper-slide>
       <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-      </swiper-slide>
+    </swiper-slide>
     <swiper-slide>
       <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-      </swiper-slide>
+    </swiper-slide>
     <swiper-slide>
       <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-      </swiper-slide>
+    </swiper-slide>
     <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-4.jpg"/>
-      </swiper-slide>
+      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+    </swiper-slide>
   </swiper>
 </template>
 <script>
@@ -37,10 +44,10 @@ import "swiper/css/pagination";
 import "./style.css";
 
 // import Swiper core and required modules
-import SwiperCore, { EffectCube, Pagination } from "swiper";
+import SwiperCore, { EffectCube, Pagination, Autoplay } from "swiper";
 
 // install Swiper modules
-SwiperCore.use([EffectCube, Pagination]);
+SwiperCore.use([Autoplay, EffectCube, Pagination]);
 
 export default {
   components: {
