@@ -53,6 +53,7 @@ python manage.py createsuperuser
 ```
 ## Vérifications finales
 Démarrez le serveur de développement et assurez-vous que tout fonctionne sans erreur.
+dans votre terminal tapez
 
 ```bash
 python manage.py runserver
