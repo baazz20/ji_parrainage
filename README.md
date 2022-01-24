@@ -15,6 +15,11 @@ source venv/bin/activate
 ```bash
 env\Scripts\activate
 ```
+## Installez les dépendences
+
+```bash
+pip install -r requirements.txt
+```
 ## Base de Données
 Creer une base de donnée, nommer-le comme vous voulez.
 en suite dans le dossier *ji_sponsordhip* ouvrez le fichier *settings.py* reseigner les information de connexion à la base de donnée comme suit :
