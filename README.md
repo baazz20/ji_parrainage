@@ -3,7 +3,7 @@ plateforme de présentation de la cérémonie de parrainage JI 2022
 
 ## Installation
 ### Activer l'environnement virtuel
-une fois le projet cloné, renommer-le et ouvrer le dans un terminal
+une fois le projet cloné, renommer-le et ouvrer le dans un terminal <br>
 Les environnements virtuels sont les endroits où les dépendances sont stockées, similaires aux node_modules en JavaScript. Chaque fois que vous démarrez votre machine, vous devez activer l'environnement virtuel à l'aide de la commande suivante
 ##### Mac Os
 
