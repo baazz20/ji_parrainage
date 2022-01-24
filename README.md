@@ -59,4 +59,4 @@ dans votre terminal tapez
 ```bash
 python manage.py runserver
 ```
-##### dans votre navigateur entrer : http://127.0.0.1:8000/admin/
+##### dans votre navigateur entrer : http://127.0.0.1:8000/admin/ <br> renseigner les identifiant du superuser creé précédenment
