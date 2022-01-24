@@ -21,6 +21,7 @@ env\Scripts\activate
 pip install -r requirements.txt
 ```
 ## Base de Données
+###### n'oublier pas de modifier le nom de la base de donnée et le mot de passe de connexion à la bd.
 Creer une base de donnée, nommer-le comme vous voulez.
 en suite dans le dossier *ji_sponsordhip* ouvrez le fichier *settings.py* reseigner les information de connexion à la base de donnée comme suit :
 ```python
