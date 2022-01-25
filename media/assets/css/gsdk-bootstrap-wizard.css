@@ -307,20 +307,20 @@ h1 .subtitle {
   cursor: pointer;
   font-weight: 500;
 }
-.wizard-card[data-color="orange"] .choice:hover .icon, .wizard-card[data-color="orange"] .choice.active .icon {
-  border-color: #FF9500;
+.wizard-card[data-color="purple"] .choice:hover .icon, .wizard-card[data-color="purple"] .choice.active .icon {
+  border-color: purple;
 }
-.wizard-card[data-color="orange"] .picture:hover {
-  border-color: #FF9500;
+.wizard-card[data-color="purple"] .picture:hover {
+  border-color: purple;
 }
-.wizard-card[data-color="orange"] .moving-tab {
+.wizard-card[data-color="purple"] .moving-tab {
   position: absolute;
   text-align: center;
   padding: 10px;
   font-size: 12px;
   text-transform: uppercase;
   -webkit-font-smoothing: subpixel-antialiased;
-  background-color: #FF9500;
+  background-color: purple;
   top: 0px;
   left: 0px;
   color: #FFFFFF;
@@ -542,8 +542,8 @@ h1 .subtitle {
 }
 
 .btn-warning {
-  color: #FF9500;
-  border-color: #FF9500;
+  color: purple;
+  border-color: purple;
 }
 
 .btn-danger {
@@ -614,7 +614,7 @@ h1 .subtitle {
 
 .btn-warning.disabled, .btn-warning[disabled], fieldset[disabled] .btn-warning, .btn-warning.disabled:hover, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning:hover, .btn-warning.disabled:focus, .btn-warning[disabled]:focus, fieldset[disabled] .btn-warning:focus, .btn-warning.disabled:active, .btn-warning[disabled]:active, fieldset[disabled] .btn-warning:active, .btn-warning.disabled.active, .btn-warning.active[disabled], fieldset[disabled] .btn-warning.active {
   background-color: transparent;
-  border-color: #FF9500;
+  border-color: purple;
 }
 
 /*           Buttons fill .btn-fill           */
@@ -654,8 +654,8 @@ h1 .subtitle {
   border-color: #05AE0E;
 }
 .btn-fill.btn-warning {
-  background-color: #FF9500;
-  border-color: #FF9500;
+  background-color: purple;
+  border-color: purple;
 }
 .btn-fill.btn-warning:hover, .btn-fill.btn-warning:focus, .btn-fill.btn-warning:active, .btn-fill.btn-warning.active, .open .dropdown-toggle .btn-fill.btn-warning {
   background-color: #ED8D00;
@@ -737,7 +737,7 @@ h1 .subtitle {
 }
 
 .text-warning, .text-warning:hover {
-  color: #FF9500;
+  color: purple;
 }
 
 .text-danger, .text-danger:hover {
@@ -775,8 +775,8 @@ h1 .subtitle {
 }
 
 .label-warning {
-  border-color: #FF9500;
-  color: #FF9500;
+  border-color: purple;
+  color: purple;
 }
 
 .label-danger {
@@ -811,7 +811,7 @@ label small {
 }
 
 .label-warning.label-fill, .progress-bar-warning {
-  background-color: #FF9500;
+  background-color: purple;
 }
 
 .label-danger.label-fill, .progress-bar-danger {
