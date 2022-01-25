@@ -658,8 +658,8 @@ h1 .subtitle {
   border-color: purple;
 }
 .btn-fill.btn-warning:hover, .btn-fill.btn-warning:focus, .btn-fill.btn-warning:active, .btn-fill.btn-warning.active, .open .dropdown-toggle .btn-fill.btn-warning {
-  background-color: #ED8D00;
-  border-color: #ED8D00;
+  background-color: #eac155;
+  border-color: #eac155;
 }
 .btn-fill.btn-danger {
   background-color: #FF3B30;
